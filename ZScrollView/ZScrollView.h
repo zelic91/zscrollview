@@ -1,6 +1,6 @@
 //
-//  GScrollView.h
-//  GenesisGym
+//  ZScrollView.h
+//  ZScrollView
 //
 
 #import <UIKit/UIKit.h>

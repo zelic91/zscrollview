@@ -1,6 +1,6 @@
 //
 //  ZIndicatorScrollView.h
-//  ZScrollViewDemo
+//  ZScrollView
 //
 
 #import <UIKit/UIKit.h>

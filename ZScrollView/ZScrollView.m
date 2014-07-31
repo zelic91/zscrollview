@@ -1,6 +1,6 @@
 //
-//  GScrollView.m
-//  GenesisGym
+//  ZScrollView.m
+//  ZScrollView
 //
 
 #import "ZScrollView.h"

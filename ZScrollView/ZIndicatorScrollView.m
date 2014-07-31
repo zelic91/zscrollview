@@ -1,6 +1,6 @@
 //
 //  ZIndicatorScrollView.m
-//  ZScrollViewDemo
+//  ZScrollView
 //
 
 #import "ZIndicatorScrollView.h"

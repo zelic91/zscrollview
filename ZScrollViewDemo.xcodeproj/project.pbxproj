@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		919E84DE198AB533001A9962 /* ZScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E84DC198AB533001A9962 /* ZScrollView.m */; };
 		91E3E7F119888DA900E1985E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E3E7F019888DA900E1985E /* Foundation.framework */; };
 		91E3E7F319888DA900E1985E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E3E7F219888DA900E1985E /* CoreGraphics.framework */; };
 		91E3E7F519888DA900E1985E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E3E7F419888DA900E1985E /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		919E84DC198AB533001A9962 /* ZScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZScrollView.m; sourceTree = "<group>"; };
+		919E84DD198AB533001A9962 /* ZScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZScrollView.h; sourceTree = "<group>"; };
 		91E3E7ED19888DA900E1985E /* ZScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E3E7F019888DA900E1985E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		91E3E7F219888DA900E1985E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -162,6 +165,8 @@
 		91E3E82819888DBE00E1985E /* ZScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				919E84DD198AB533001A9962 /* ZScrollView.h */,
+				919E84DC198AB533001A9962 /* ZScrollView.m */,
 				91E3E82919888DEC00E1985E /* ZIndicatorScrollView.h */,
 				91E3E82A19888DEC00E1985E /* ZIndicatorScrollView.m */,
 			);
@@ -271,6 +276,7 @@
 				91E3E80A19888DA900E1985E /* ZViewController.m in Sources */,
 				91E3E82B19888DEC00E1985E /* ZIndicatorScrollView.m in Sources */,
 				91E3E80119888DA900E1985E /* ZAppDelegate.m in Sources */,
+				919E84DE198AB533001A9962 /* ZScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +491,7 @@
 				91E3E82419888DA900E1985E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91E3E82519888DA900E1985E /* Build configuration list for PBXNativeTarget "ZScrollViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +500,7 @@
 				91E3E82719888DA900E1985E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

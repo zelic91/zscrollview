@@ -2,9 +2,6 @@
 //  ZIndicatorScrollView.m
 //  ZScrollViewDemo
 //
-//  Created by Zelic on 7/30/14.
-//  Copyright (c) 2014 Zelic. All rights reserved.
-//
 
 #import "ZIndicatorScrollView.h"
 
@@ -112,10 +109,10 @@
     maskLayer.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
     
     CAGradientLayer *gradientLayer = [CAGradientLayer layer];
-    gradientLayer.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
-    gradientLayer.startPoint = CGPointMake(0.0f, 0.0f);
-    gradientLayer.endPoint = CGPointMake(1.0f, 0.0f);
-    gradientLayer.colors = [NSArray arrayWithObjects:transparent, opaque, opaque, transparent, nil];
+    gradientLayer.frame            = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
+    gradientLayer.startPoint       = CGPointMake(0.0f, 0.0f);
+    gradientLayer.endPoint         = CGPointMake(1.0f, 0.0f);
+    gradientLayer.colors           = [NSArray arrayWithObjects:transparent, opaque, opaque, transparent, nil];
     gradientLayer.locations = [NSArray arrayWithObjects:[NSNumber numberWithFloat:0],
                                [NSNumber numberWithFloat:kFadePercentage],
                                [NSNumber numberWithFloat:1-kFadePercentage],
